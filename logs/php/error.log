@@ -1,0 +1,344 @@
+[12-Dec-2022 13:43:47 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themestyle.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 13:43:47 UTC] PHP Stack trace:
+[12-Dec-2022 13:43:47 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 13:43:47 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 13:43:47 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 13:43:47 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 13:43:47 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\page.php:1
+[12-Dec-2022 13:43:47 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 13:43:47 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 13:43:47 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 13:43:47 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 13:43:47 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 13:43:47 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:47 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:47 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:47 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 13:43:47 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:47 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:47 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:47 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[12-Dec-2022 13:43:49 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themestyle.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 13:43:49 UTC] PHP Stack trace:
+[12-Dec-2022 13:43:49 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 13:43:49 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 13:43:49 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 13:43:49 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 13:43:49 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[12-Dec-2022 13:43:49 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 13:43:49 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 13:43:49 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 13:43:49 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 13:43:49 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 13:43:49 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:49 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:49 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:49 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 13:43:49 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:49 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:49 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:49 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[12-Dec-2022 13:43:49 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themestyle.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 13:43:49 UTC] PHP Stack trace:
+[12-Dec-2022 13:43:49 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 13:43:49 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 13:43:49 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 13:43:49 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 13:43:49 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[12-Dec-2022 13:43:49 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 13:43:49 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 13:43:49 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 13:43:49 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 13:43:49 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 13:43:49 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:49 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:49 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:49 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 13:43:49 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 13:43:49 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 13:43:49 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 13:43:49 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[12-Dec-2022 14:09:21 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themetheme.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 14:09:21 UTC] PHP Stack trace:
+[12-Dec-2022 14:09:21 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 14:09:21 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 14:09:21 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 14:09:21 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 14:09:21 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\page.php:1
+[12-Dec-2022 14:09:21 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 14:09:21 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 14:09:21 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 14:09:21 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 14:09:21 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 14:09:21 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:21 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:21 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:21 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 14:09:21 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:21 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:21 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:21 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[12-Dec-2022 14:09:23 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themetheme.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 14:09:23 UTC] PHP Stack trace:
+[12-Dec-2022 14:09:23 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 14:09:23 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 14:09:23 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 14:09:23 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 14:09:23 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[12-Dec-2022 14:09:23 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 14:09:23 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 14:09:23 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 14:09:23 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 14:09:23 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 14:09:23 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:23 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:23 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:23 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 14:09:23 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:23 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:23 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:23 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[12-Dec-2022 14:09:23 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\33667\Documents\wordpress\planty\app\public/wp-content/themes/blankslate-child-themetheme.css in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 10
+[12-Dec-2022 14:09:23 UTC] PHP Stack trace:
+[12-Dec-2022 14:09:23 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[12-Dec-2022 14:09:23 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[12-Dec-2022 14:09:23 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[12-Dec-2022 14:09:23 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[12-Dec-2022 14:09:23 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[12-Dec-2022 14:09:23 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[12-Dec-2022 14:09:23 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[12-Dec-2022 14:09:23 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[12-Dec-2022 14:09:23 UTC] PHP   9. wp_head() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:9
+[12-Dec-2022 14:09:23 UTC] PHP  10. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:3043
+[12-Dec-2022 14:09:23 UTC] PHP  11. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:23 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:23 UTC] PHP  13. wp_enqueue_scripts() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:23 UTC] PHP  14. do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\script-loader.php:2180
+[12-Dec-2022 14:09:23 UTC] PHP  15. WP_Hook->do_action() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:517
+[12-Dec-2022 14:09:23 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:332
+[12-Dec-2022 14:09:23 UTC] PHP  17. theme_enqueue_styles() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[12-Dec-2022 14:09:23 UTC] PHP  18. filemtime() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php:10
+[27-Dec-2022 19:48:39 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:39 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:39 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:39 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:39 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:39 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:39 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[27-Dec-2022 19:48:39 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:39 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:39 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:39 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:39 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:39 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:39 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:39 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:39 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:39 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:39 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:39 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:39 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:39 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[27-Dec-2022 19:48:39 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:39 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:39 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:39 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:39 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:39 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:39 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:39 UTC] PHP Warning:  Use of undefined constant principal - assumed 'principal' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:39 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:39 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:39 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:39 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:39 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:39 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[27-Dec-2022 19:48:39 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:39 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:39 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:39 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:39 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:39 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:39 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:39 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:39 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:39 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:39 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:39 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:39 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:39 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:9
+[27-Dec-2022 19:48:39 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:39 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:39 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:39 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:39 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:39 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:39 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:40 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:40 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:40 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:40 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:40 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:40 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:40 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:30
+[27-Dec-2022 19:48:40 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:40 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:40 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:40 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:40 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:40 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:40 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:40 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:40 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:40 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:40 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:40 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:40 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:40 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:30
+[27-Dec-2022 19:48:40 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:40 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:40 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:40 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:40 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:40 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:40 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:40 UTC] PHP Warning:  Use of undefined constant principal - assumed 'principal' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:40 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:40 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:40 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:40 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:40 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:40 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:30
+[27-Dec-2022 19:48:40 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:40 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:40 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:40 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:40 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:40 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:40 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:40 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:40 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:40 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:40 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:40 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:40 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:40 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php:30
+[27-Dec-2022 19:48:40 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:40 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:40 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:40 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:40 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:40 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:40 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  Use of undefined constant principal - assumed 'principal' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_header() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:1
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:48
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\header.php:35
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:11
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:11
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  Use of undefined constant principal - assumed 'principal' (this will throw an Error in a future version of PHP) in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:11
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
+[27-Dec-2022 19:48:41 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\functions.php on line 52
+[27-Dec-2022 19:48:41 UTC] PHP Stack trace:
+[27-Dec-2022 19:48:41 UTC] PHP   1. {main}() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:0
+[27-Dec-2022 19:48:41 UTC] PHP   2. require() C:\Users\33667\Documents\wordpress\planty\app\public\index.php:17
+[27-Dec-2022 19:48:41 UTC] PHP   3. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-blog-header.php:19
+[27-Dec-2022 19:48:41 UTC] PHP   4. include() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template-loader.php:106
+[27-Dec-2022 19:48:41 UTC] PHP   5. get_footer() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate\404.php:11
+[27-Dec-2022 19:48:41 UTC] PHP   6. locate_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\general-template.php:92
+[27-Dec-2022 19:48:41 UTC] PHP   7. load_template() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:718
+[27-Dec-2022 19:48:41 UTC] PHP   8. require_once() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\template.php:783
+[27-Dec-2022 19:48:41 UTC] PHP   9. wp_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-content\themes\blankslate-child-theme\footer.php:4
+[27-Dec-2022 19:48:41 UTC] PHP  10. apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\nav-menu-template.php:273
+[27-Dec-2022 19:48:41 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\plugin.php:205
+[27-Dec-2022 19:48:41 UTC] PHP  12. add_extra_item_to_nav_menu() C:\Users\33667\Documents\wordpress\planty\app\public\wp-includes\class-wp-hook.php:308
